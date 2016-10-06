@@ -1,15 +1,15 @@
 import XCTest
-@testable import Perfect_RequestLogger
+@testable import PerfectRequestLogger
 
-class Perfect_RequestLoggerTests: XCTestCase {
+class PerfectRequestLoggerTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        XCTAssertEqual(Perfect_RequestLogger().text, "Hello, World!")
+        XCTAssertEqual(PerfectRequestLogger().text, "Hello, World!")
     }
 
 
-    static var allTests : [(String, (Perfect_RequestLoggerTests) -> () throws -> Void)] {
+    static var allTests : [(String, (PerfectRequestLoggerTests) -> () throws -> Void)] {
         return [
             ("testExample", testExample),
         ]

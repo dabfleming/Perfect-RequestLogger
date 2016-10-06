@@ -1,6 +1,6 @@
 import XCTest
-@testable import Perfect_RequestLoggerTests
+@testable import PerfectRequestLoggerTests
 
 XCTMain([
-     testCase(Perfect_RequestLoggerTests.allTests),
+     testCase(PerfectRequestLoggerTests.allTests),
 ])

@@ -1,4 +1,4 @@
-struct Perfect_RequestLogger {
+struct PerfectRequestLogger {
 
     var text = "Hello, World!"
 }
